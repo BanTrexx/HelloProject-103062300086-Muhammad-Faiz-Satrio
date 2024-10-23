@@ -1,0 +1,74 @@
+{
+  "faiz": {
+    "ID": "faiz",
+    "Password": "123",
+    "Balance": 781000,
+    "Approved": true,
+    "Transactions": [
+      {
+        "ID": 1,
+        "AccountID": "faiz",
+        "Type": "Transfer",
+        "Amount": 100000,
+        "Date": "2024-06-07T00:47:34+07:00",
+        "Details": "Transferred to fanny"
+      },
+      {
+        "ID": 2,
+        "AccountID": "faiz",
+        "Type": "Payment",
+        "Amount": 19000,
+        "Date": "2024-06-07T00:47:45+07:00",
+        "Details": "BPJS"
+      },
+      {
+        "ID": 3,
+        "AccountID": "faiz",
+        "Type": "Transfer",
+        "Amount": 100000,
+        "Date": "2024-06-07T09:16:46+07:00",
+        "Details": "Transferred to fanny"
+      },
+      {
+        "ID": 4,
+        "AccountID": "faiz",
+        "Type": "Payment",
+        "Amount": 10000,
+        "Date": "2024-06-07T09:17:54+07:00",
+        "Details": "BPJS"
+      }
+    ]
+  },
+  "fanny": {
+    "ID": "fanny",
+    "Password": "123",
+    "Balance": 180000,
+    "Approved": true,
+    "Transactions": [
+      {
+        "ID": 1,
+        "AccountID": "fanny",
+        "Type": "Transfer",
+        "Amount": 100000,
+        "Date": "2024-06-07T00:47:34+07:00",
+        "Details": "Received from faiz"
+      },
+      {
+        "ID": 2,
+        "AccountID": "fanny",
+        "Type": "Payment",
+        "Amount": 20000,
+        "Date": "2024-06-07T00:48:09+07:00",
+        "Details": "PLN"
+      },
+      {
+        "ID": 3,
+        "AccountID": "fanny",
+        "Type": "Transfer",
+        "Amount": 100000,
+        "Date": "2024-06-07T09:16:46+07:00",
+        "Details": "Received from faiz"
+      }
+    ]
+  }
+}
