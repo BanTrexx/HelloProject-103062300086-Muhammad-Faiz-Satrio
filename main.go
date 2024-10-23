@@ -11,6 +11,8 @@ import (
 	"time"
 )
 
+//ADD COMMENT TO GIT
+
 type Account struct {
 	ID           string
 	Password     string
